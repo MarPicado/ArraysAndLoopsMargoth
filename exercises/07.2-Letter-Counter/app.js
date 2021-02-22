@@ -3,7 +3,7 @@ let counts = {};
 
 // your code here
 for (let i in par) {
-    const letter = par[i];
+    const letter = par[i].toLocaleLowerCase();
     console.log(letter);
     if (letter == " ") continue;
     else if (counts[letter] == undefined) {
