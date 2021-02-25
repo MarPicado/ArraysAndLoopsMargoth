@@ -3,7 +3,7 @@ var people = ['juan','ana','michelle','daniella','stefany','lucy','barak'];
 function deletePerson(personName)
 {
     //your code here
-    people.splice(0, "daniella");
+    let new_people = []; // mi variable nueva
 }
 
 console.log(deletePerson('daniella'));
