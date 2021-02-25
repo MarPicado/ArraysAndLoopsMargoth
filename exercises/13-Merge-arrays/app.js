@@ -15,3 +15,5 @@ const mergeArrays = (firstArray, secondArray) => {
 }
 
 console.log(mergeArrays(chunk_one, chunk_two));
+
+//The length of the returned array should be equal to the sum of the length of first and second given arrays
