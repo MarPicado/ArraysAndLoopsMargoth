@@ -5,6 +5,7 @@ function mergeTwoList(list_of_numbers)
 {
     let odd = [];
     let even = [];
+    let newArray = [];
     for(let i = 0; i < list_of_numbers.length; i++){
         if(i%2==0){
             odd.push(list_of_numbers[i]);
@@ -13,9 +14,8 @@ function mergeTwoList(list_of_numbers)
             even.push(list_of_numbers[i]);
         }
     }
-    return list_of_numbers
-    //  list_of_numbers.sort(function(odd, even){return odd-even});
-    
+    return newArray=[].concat(odd,even);
+    //  list_of_numbers.sort(function(odd, even){return odd-even});  
 }
-
 console.log(mergeTwoList(list_of_numbers))
+
